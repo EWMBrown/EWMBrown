@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>A Boring Website</title>
+	<!-- Responsive Nav CSS + Java -->
+	<link rel="stylesheet" href="styles/responsive-nav.css">
+	<script src="java/responsive-nav.js"></script>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<!-- Relative Documents -->
+	<link rel="" type="text/html" href="about.html">
+	<link rel="" type="text/html" href="john.html">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav class="nav-collapse">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="mailto:ewmbrown@unc.edu">Email</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div>
+			<h1>Why?</h1>
+			<p>I don't know why you clicked this, I told you there would be nothing.</p>
+			<p class="aside">Really, you should click the red button to see an image of John Malkovich.</p>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy;me</p>
+		<a id="john" href="john.html" target="_blank">John</a>
+	</footer>
+	
+	<script>
+	  var nav = responsiveNav(".nav-collapse");
+	</script>
+</body>
+
+</html>
